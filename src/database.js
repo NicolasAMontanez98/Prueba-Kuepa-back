@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const URI =
-  "mongodb+srv://dbAdmin:REAJA95fxd8UueiO@cluster0.eb3o4.mongodb.net/kuepachat?retryWrites=true&w=majority";
+  "mongodb://127.0.0.1:27017/dbkuepa";
 
 mongoose.connect(URI, {
   useNewUrlParser: true,
